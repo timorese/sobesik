@@ -1,0 +1,6 @@
+*.py text eol=lf
+*.cmd text eol=crlf
+*.md text eol=lf
+*.xlsx binary
+*.pdf binary
+*.zip binary

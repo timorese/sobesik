@@ -1,0 +1,18 @@
+test_dates_are_checked_not_guessed (test_clean_zayavki.CleaningTests.test_dates_are_checked_not_guessed) ... ok
+test_explicit_date_order_is_used_for_period_inference (test_clean_zayavki.CleaningTests.test_explicit_date_order_is_used_for_period_inference) ... ok
+test_names_and_identity_conflicts (test_clean_zayavki.CleaningTests.test_names_and_identity_conflicts) ... ok
+test_no_consensus_period_does_not_invent_dates (test_clean_zayavki.CleaningTests.test_no_consensus_period_does_not_invent_dates) ... ok
+test_other_workbook_preserves_every_row (test_clean_zayavki.CleaningTests.test_other_workbook_preserves_every_row) ... Ошибка: Результаты уже существуют: другие заявки_clean.xlsx, другие заявки_problems.xlsx. Укажите --force для перезаписи.
+ok
+test_phone_formats_and_notes (test_clean_zayavki.CleaningTests.test_phone_formats_and_notes) ... ok
+test_worksheet_selection_and_empty_file (test_clean_zayavki.CleaningTests.test_worksheet_selection_and_empty_file) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.044s
+
+OK
+Обработано: 7. Чистых: 2. Дублей: 3. Проблем без включения в чистый файл: 2.
+Строк в отчёте проблем: 6. Полный аудит: 7 строк.
+Период: 2028-02. Определён по однозначным датам: 6 из 6.
+Чистый файл: /tmp/tmpjxpx3gzk/out/другие заявки_clean.xlsx
+Отчёт проблем: /tmp/tmpjxpx3gzk/out/другие заявки_problems.xlsx
